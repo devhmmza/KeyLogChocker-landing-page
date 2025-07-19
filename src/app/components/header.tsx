@@ -1,6 +1,8 @@
 "use client"
 import Link from 'next/link';
 import { ThemeToggle } from '@/components/theme-toggle';
+import { Button } from '@/components/ui/button';
+import { Coffee } from 'lucide-react';
 
 export function Header() {
   const navItems = [
@@ -24,7 +26,15 @@ export function Header() {
             </Link>
           ))}
         </nav>
-        <ThemeToggle />
+        <div className="flex items-center gap-2">
+          <Button asChild variant="ghost" size="icon" className="text-primary hover:bg-primary/10 hover:text-primary rounded-full">
+            <Link href="https://www.buymeacoffee.com" target="_blank" rel="noopener noreferrer">
+              <Coffee className="h-[1.2rem] w-[1.2rem]" />
+              <span className="sr-only">Buy me a coffee</span>
+            </Link>
+          </Button>
+          <ThemeToggle />
+        </div>
       </div>
     </header>
   );
