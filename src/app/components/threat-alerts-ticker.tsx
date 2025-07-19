@@ -6,7 +6,7 @@ type ThreatAlertsTickerProps = {
 };
 
 export function ThreatAlertsTicker({ alerts }: ThreatAlertsTickerProps) {
-  if (alerts.length === 0) return null;
+  if (!alerts || alerts.length === 0) return null;
 
   const allAlerts = alerts.join('  //  ');
 
