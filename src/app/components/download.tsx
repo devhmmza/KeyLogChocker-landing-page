@@ -12,7 +12,7 @@ export function Download() {
           </p>
         </div>
         <div className="mx-auto w-full max-w-sm space-y-2">
-          <a href="/downloads/KeyLogChocker.exe" download>
+          <a href="/downloads/KeylogChocker.exe" download>
   <Button size="lg" className="w-full cyber-glow text-lg py-8">
     <DownloadCloud className="mr-2 h-6 w-6" />
     Download for Windows
