@@ -22,7 +22,7 @@ export default async function Home() {
       </main>
       <footer className="text-center p-8 text-muted-foreground text-sm border-t border-border mt-24 md:mt-32">
         <p>&copy; {new Date().getFullYear()} KeyLogChocker. All rights reserved. </p>
-        <p className="font-code text-xs mt-2">v1.0.0 - 'Cyberpunk Dreams'</p>
+        <p className="font-code text-xs mt-2">v1.0.0 - 'Creator - HAMZA'</p>
       </footer>
       <EncryptedText />
     </div>

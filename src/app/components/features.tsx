@@ -52,9 +52,9 @@ export function Features() {
             </div>
             <div className="flex items-center justify-center p-4 border border-primary/20 rounded-lg bg-black">
                 <Image
-                    src="https://placehold.co/800x600.png"
-                    width={800}
-                    height={600}
+                    src="/downloads/keyloggerscr.jpg"
+                    width={900}
+                    height={900}
                     alt="KeyLogChocker application screenshot showing detection process in a terminal."
                     data-ai-hint="terminal ui"
                     className="rounded-md object-cover"

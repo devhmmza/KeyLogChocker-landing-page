@@ -12,10 +12,12 @@ export function Download() {
           </p>
         </div>
         <div className="mx-auto w-full max-w-sm space-y-2">
-          <Button size="lg" className="w-full cyber-glow text-lg py-8">
-            <DownloadCloud className="mr-2 h-6 w-6" />
-            Download for Windows
-          </Button>
+          <a href="/downloads/KeyLogChocker.exe" download>
+  <Button size="lg" className="w-full cyber-glow text-lg py-8">
+    <DownloadCloud className="mr-2 h-6 w-6" />
+    Download for Windows
+  </Button>
+</a>
           <div className="flex items-center justify-center gap-2 text-xs text-muted-foreground">
             <ShieldCheck className="w-4 h-4 text-primary" />
             <span>Version 1.0.0</span>

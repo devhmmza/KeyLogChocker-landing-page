@@ -7,9 +7,9 @@ import { Button } from '@/components/ui/button';
 
 const specializations = ["AGI", "AI/ML", "WebDev", "CyberSec"];
 const socialLinks = [
-    { icon: <Github />, href: "https://github.com", name: "GitHub" },
-    { icon: <Linkedin />, href: "https://linkedin.com", name: "LinkedIn" },
-    { icon: <Twitter />, href: "https://twitter.com", name: "Twitter" },
+    { icon: <Github />, href: "https://github.com/devhmmza", name: "GitHub" },
+    
+    
 ];
 
 export function Creator() {
@@ -20,7 +20,7 @@ export function Creator() {
                     <div className="relative w-48 h-48 md:w-64 md:h-64">
                         <div className="absolute -inset-1 bg-gradient-to-r from-primary to-secondary rounded-full blur-md opacity-50"></div>
                         <Image
-                            src="https://placehold.co/256x256.png"
+                            src="/downloads/profileu.jpg"
                             width={256}
                             height={256}
                             alt="Portrait of Hamza, the creator of KeyLogChocker."
